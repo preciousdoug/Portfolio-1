@@ -6,13 +6,10 @@ html, body {
   
 }
 body {
-
-  background-image: url("beans bueno.jpg");
-  background-color: indianred; 
-  height: 1000px; 
-  background-position: center; 
-  background-repeat: repeat; 
-  background-size: cover;
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{ font-family: 'papyrus',sans-serif;
   font-size: 30px;
