@@ -1,3 +1,4 @@
+/*margins of the content*/
 html, body {
   width: 100%;
   height: 100%;
@@ -5,22 +6,43 @@ html, body {
   margin: 10px;
   
 }
+/*background details*/
 body {
     background-color: lightblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*font details*/
 h1{ font-family: 'papyrus',sans-serif;
   font-size: 30px;
-   text-align:left
+   text-align:center
  }
 h2{
-  text-align:left
+  text-align:center
 }
  p{
    font-family: "papyrus",sans-serif;
    font-size:15px;
           }
 
+}
+/*link details*/
+/* unvisited link*/
+a:link{
+  color: blue;
+}
+
+/*visited link*/
+a:visited {color: rebeccapurple;
+}
+
+/*hover over link*/
+a:hover {
+  color: darkblue;
+}
+
+/*active link*/
+a:active {
+  color:mediumpurple;
 }
